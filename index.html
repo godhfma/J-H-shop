@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In to J-h</title>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>20:15</span>
+        </div>
+        <div class="status-bar__column">
+            <span>48%</span>
+            <i class="fas fa-battery-half"></i>
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <header class="login-header">
+        <h1 class="login-header__name">Login</h1>
+        <div class="login-header__kakao">
+            <a href="#">
+            <i class="fas fa-comment"></i></li>
+            <span>Kakao Log In / Sign Up</span>
+            </a>
+        </div>
+    </header>
+    <section>
+        <div class="login-line">
+            <div></div>
+            <span>OR</span>
+        </div>
+
+        <form id="login-form" action="first.html" method="get" >
+            <input name="username" type="text" placeholder="E-mail" required/>
+            <input name="password" type="password" placeholder="password" required/>
+            <input type="submit" value="Log In"/>
+            <input type="submit" value="Sign Up"/>
+            <a href="#">Find Your Account or Password</a>
+        </form>
+    </section>
+
+    <div id="screen-error">
+        <span>Sorry, Your screen is not appropriate <i class="far fa-sad-tear fa-lg"></i></span>
+    </div>
+    <script src="https://kit.fontawesome.com/6478f529f2.js"
+    crossorigin="anonymous">
+    </script>
+</body>
+</html>
