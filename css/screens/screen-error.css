@@ -1,0 +1,19 @@
+#screen-error {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 99;
+  font-size: 3em;
+  background-color: var(--pink);
+}
+
+@media screen and (max-width: 865px) and (min-width: 610px) {
+  #screen-error {
+    display: none;
+  }
+}
