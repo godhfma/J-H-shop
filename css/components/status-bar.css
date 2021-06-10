@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 10px 5px;
+  padding: 15px 0px;
   align-items: center;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .status-bar__column:first-child {
-  margin-left: 5px;
+  margin-left: 10px;
 }
 .status-bar__column:nth-child(2) {
   display: flex;
@@ -21,10 +21,9 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding: 0 5px 0 0;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .status-bar__column:last-child > i {
-  margin: 0 3px;
+  margin-left: 5px;
 }
