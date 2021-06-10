@@ -22,27 +22,36 @@
         </div>
     </div>
 
+    <div class="menu-bar">
+        <div class="menu-bar__column">
+            <a href="#"><i class="fas fa-angle-left fa-2x"></i></a>
+        </div>
+        <div class="menu-bar__column">
+            <!-- <a href="#"><i class="fas fa-shopping-cart fa-2x"></i></a> -->
+            <a href="#"><i class="fas fa-bars fa-2x"></i></a>
+        </div>
+    </div>
+
     <header class="login-header">
         <h1 class="login-header__name">Login</h1>
         <div class="login-header__kakao">
             <a href="#">
-            <i class="fas fa-comment"></i></li>
+            <i class="fas fa-comment fa-lg"></i></li>
             <span>Kakao Log In / Sign Up</span>
             </a>
         </div>
     </header>
     <section>
         <div class="login-line">
-            <div></div>
-            <span>OR</span>
+            <div>OR</div>
         </div>
 
         <form id="login-form" action="first.html" method="get" >
             <input name="username" type="text" placeholder="E-mail" required/>
-            <input name="password" type="password" placeholder="password" required/>
+            <input name="password" type="password" placeholder="Password" required/> <i class="fas fa-eye fa-lg"></i>
             <input type="submit" value="Log In"/>
             <input type="submit" value="Sign Up"/>
-            <a href="#">Find Your Account or Password</a>
+            <a href="#" class="login-request">Find Your Account or Password</a>
         </form>
     </section>
 
