@@ -5,13 +5,16 @@
 
 /*components*/
 @import "components/status-bar.css";
-@import "components/screen-error.css";
+@import "components/menu-bar.css";
 
 /*screens*/
+@import "screens/screen-error.css";
 @import "screens/login.css";
+@import "screens/first.css";
 
 body {
   box-sizing: border-box;
   font-family: "Varela Round", sans-serif;
   color: #2e363e;
+  background-color: #f8f8ff;
 }
