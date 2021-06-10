@@ -1,0 +1,15 @@
+.first-slide {
+  height: 765px;
+  margin-top: 45px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--menu-bar__padding);
+}
+
+.first-slide__images {
+  text-align: center;
+}
+.first-slide__images img {
+  display: block;
+}
