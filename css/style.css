@@ -10,7 +10,7 @@
 /*screens*/
 @import "screens/screen-error.css";
 @import "screens/login.css";
-@import "screens/first.css";
+@import "screens/re-first.css";
 
 body {
   box-sizing: border-box;
