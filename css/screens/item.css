@@ -1,5 +1,5 @@
 section {
-  width: 100%;
+  width: 95%;
   padding: var(--menu-bar__padding);
   margin-top: var(--menu-bar__margin-top);
 }
@@ -22,20 +22,31 @@ section {
 
 .item-info__1 {
   line-height: 1.4;
+  margin-bottom: 10px;
 }
 
-/* .item-info__1 div {
-  width: 10px;
-  height: 10px;
-  background-color: hotpink;
-} */
 .item-info__2 {
-  width: 100%;
+  position: relative;
 }
-.item__cart {
+
+.item__add {
   width: 75%;
-  height: 70px;
   background-color: var(--pink);
-  border-radius: 10px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.item__add > i {
+  padding-right: 10px;
+  font-size: 27px;
+}
+
+.item__iconbox {
+  position: absolute;
+  top: 25%;
+  right: 8%;
+  font-size: 30px;
 }
