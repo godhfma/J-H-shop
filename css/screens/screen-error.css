@@ -1,12 +1,13 @@
 #screen-error {
   position: absolute;
   width: 100vw;
-  height: 100vh;
+  height: 300vh;
   top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
+  line-height: 1.4;
   z-index: 99;
   font-size: 3em;
   background-color: var(--pink);
