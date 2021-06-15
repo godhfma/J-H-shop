@@ -11,6 +11,7 @@
 @import "screens/screen-error.css";
 @import "screens/login.css";
 @import "screens/re-first.css";
+@import "screens/item.css";
 
 body {
   box-sizing: border-box;
