@@ -29,7 +29,7 @@ section {
   position: relative;
 }
 
-.item__add {
+.item__add > a {
   width: 75%;
   background-color: var(--pink);
   display: flex;
@@ -39,7 +39,7 @@ section {
   border-radius: 15px;
 }
 
-.item__add > i {
+.item__add > a > i {
   padding-right: 10px;
   font-size: 27px;
 }
