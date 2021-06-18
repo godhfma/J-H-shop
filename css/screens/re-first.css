@@ -46,21 +46,21 @@ section i {
 }
 
 .first-slide {
-  width: 100%;
+  width:100%;
   position: relative;
 }
 
 .first-slide__images-icon {
   position: absolute;
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   top: 380px;
 }
 
 .first-slide__images-icon > a {
-  padding: 0 10px;
-  height: 35px;
+/*  padding: 0 10px;*/
+
 }
 
 .source {
