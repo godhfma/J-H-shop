@@ -13,7 +13,7 @@
   background-color: var(--pink);
 }
 
-@media screen and (max-width: 865px) and (min-width: 610px) {
+@media screen and (max-width: 865px) /*and (min-width: 610px)*/ {
   #screen-error {
     display: none;
   }
