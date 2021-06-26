@@ -8,3 +8,10 @@
 .menu-bar i {
   opacity: 0.8;
 }
+.menu-bar i:first-child {
+  margin-left: 15px;
+}
+
+.menu-bar i:last-child {
+  margin-right: 15px;
+}
